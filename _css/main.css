@@ -99,3 +99,46 @@ main {
     float: left;
     position: relative;
 }
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 80px;
+    height: 135px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    left: 5%;
+    background-image: url('../_images/anterior.png');
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 80px;
+    height: 135px;
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    right: 5%;
+    background-color: transparent;
+    background-image: url('../_images/proximo.png');
+}
+
+ul.slick-dots li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+ul.slick-dots li button {
+    font-size: 0;
+    border: 3px solid #ddd;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+ul.slick-dots li.slick-active button {
+    background-color: #00bac6;
+}
