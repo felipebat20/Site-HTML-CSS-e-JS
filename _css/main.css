@@ -231,7 +231,7 @@ p {
     content: '';
     height: 52px;
     background: #ffffff;
-    background-image: url('../img/setinha.png');
+    background-image: url('../_images/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -242,4 +242,22 @@ p {
     content: '';
     height: 70px;
     background: #eeeeee;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 7em;
+}
+
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.col-4 img:hover {
+    margin-top: -10px !important;
+    position: relative !important;
 }
