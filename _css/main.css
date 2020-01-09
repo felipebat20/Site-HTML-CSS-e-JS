@@ -181,6 +181,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .col-3 {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     width: 30%;
@@ -194,4 +195,51 @@ ul.slick-dots li.slick-active button {
 
 h3 {
     font-weight: normal !important;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem {
+    height: 300px;
+    width: 29%;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.bloco-imagem b,
+p {
+    text-align: left;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
 }
