@@ -135,7 +135,7 @@ ul.slick-dots {
     width: 50%;
     position: absolute;
     left: 45%;
-    top: 393px;
+    top: 390px;
 }
 
 ul.slick-dots li {
@@ -248,10 +248,10 @@ p {
     float: left;
     width: 25%;
     text-align: center;
-    line-height: 7em;
 }
 
 .col-4 img {
+    padding-top: 40px;
     cursor: pointer;
     margin: 0 auto;
     vertical-align: middle;
@@ -260,4 +260,76 @@ p {
 .col-4 img:hover {
     margin-top: -10px !important;
     position: relative !important;
+}
+
+.bloco-logos {
+    height: 150px;
+}
+
+.footer {
+    background-image: url('../_images/footer.png');
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url('../_images/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+.footer-2 p {
+    padding: 20px;
+}
+
+.footer h4 {
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.clock {
+    color: #898989;
+}
+
+.move p {
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.clock:before,
+.local:before,
+.email:before,
+.phone:before {
+    content: '';
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../_images/clock.png');
+    background-repeat: no-repeat;
+    float: left;
+    padding-right: 5px;
+}
+
+.local:before {
+    margin-top: 0px!important;
+    height: 20px!important;
+    background-image: url('../_images/local.png')!important;
+}
+
+.email:before {
+    margin-top: 4px!important;
+    background-image: url('../_images/email.png')!important;
+}
+
+.phone:before {
+    background-image: url('../_images/telefoneico.png')!important;
+}
+
+.move {
+    float: left;
+    width: 20%;
+    padding-left: 45px;
+    text-align: center;
 }
