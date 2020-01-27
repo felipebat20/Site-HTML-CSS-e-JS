@@ -311,7 +311,6 @@ p {
     display: inline-block;
     background-image: url('../_images/clock.png');
     background-repeat: no-repeat;
-    float: left;
     padding-right: 5px;
 }
 
